@@ -1,0 +1,12 @@
+<table>
+    <thead></thead>
+    <tbody>
+    <% @users.each do |user| %>
+        <td><%= user.name %></td>
+        <td><%= user.email %></td>
+        <td><%= user.gender %></td>
+        <td><%= user.phone_numver %></td>
+    <% end %>
+    </tbody>
+
+</table>
