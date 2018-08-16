@@ -5,6 +5,7 @@ class UsersController < ApplicationController
         'feature1'
         'create dev'
         'ff merge'
+        'stash'
     end
     def download
         filename = Campus::Schoolwork::HomeModel.download_news_detail(params[:tab])
