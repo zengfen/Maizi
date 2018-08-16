@@ -6,5 +6,7 @@ Rails.application.routes.draw do
         end
     end
     
-    resource :users
+    resource :users do
+
+    end
 end
