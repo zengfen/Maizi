@@ -2,6 +2,7 @@ class UsersController < ApplicationController
 
     def index
         @users = User.all
+        'master'
     end
     def download
         filename = Campus::Schoolwork::HomeModel.download_news_detail(params[:tab])
